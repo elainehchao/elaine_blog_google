@@ -1,0 +1,25 @@
+.module {
+    all: unset;
+}
+
+#background {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #eee2dc;
+}
+
+h1,
+h2 {
+    all: unset;
+}
+
+h1,
+h2,
+subtitle {
+    font-family: 'Futura-CondensedMedium';
+}
+
+#title {
+    font-size: 72px;
+    color: #ac3b61;
+}

@@ -1,0 +1,27 @@
+.post_title {
+    display: block;
+    font-size: 30px;
+    color: #a0a0aa;
+}
+
+.post_date {
+    color: #a0a0aa;
+}
+
+.post_category {
+    font-family: 'Futura-CondensedMedium';
+    color: #ac3b61;
+}
+
+img.blog_main_image {
+    display: block;
+    max-width: 500px;
+    height: auto;
+}
+
+div.post_content {
+    max-width: 500px;
+    color: #123c69;
+    font-family: Helvetica;
+    font-size: 14px;
+}
