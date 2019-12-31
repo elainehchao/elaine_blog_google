@@ -1,8 +1,9 @@
-.module {
+body {
     all: unset;
 }
 
-#background {
+div#background {
+    padding-left: 50px;
     width: 100%;
     min-height: 100vh;
     background-color: #eee2dc;
@@ -22,4 +23,7 @@ subtitle {
 #title {
     font-size: 72px;
     color: #ac3b61;
+    padding-bottom: 45px;
+    padding-top: 20px;
+    display: block;
 }

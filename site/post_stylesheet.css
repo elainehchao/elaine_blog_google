@@ -22,6 +22,11 @@ img.blog_main_image {
 div.post_content {
     max-width: 500px;
     color: #123c69;
-    font-family: Helvetica;
+    font-family: Avenir;
+    font-size: 14px;
+}
+
+div.post_meta {
+    padding-bottom: 5px;
     font-size: 14px;
 }
