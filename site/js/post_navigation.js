@@ -4,13 +4,14 @@ const NUM_POSTS = 2;
 var currentPost = NUM_POSTS;
 
 function getPostName(num) {
-    return "post" + num + ".html";
+    return "posts/post" + num + ".html .content_preview";
 }
 
 function loadPost(num) {
     console.log(getPostName(num));
     $("#blog_content").load(getPostName(num));
     currentPost = num;
+    $(".read_more").show();
     validatePrevNextButtons();
 };
 

@@ -26,16 +26,24 @@ subtitle,
     font-family: 'Futura-CondensedMedium';
 }
 
-#title {
+h1#title {
     font-size: 72px;
     color: #ac3b61;
-    padding-bottom: 45px;
     padding-top: 20px;
     display: block;
 }
 
+h2#site_subtitle {
+    font-size: 25px;
+    color: #123c69;
+}
+
 a#go_home_link {
     text-decoration: none;
+}
+
+header {
+    padding-bottom: 45px;
 }
 
 #previous_post_arrow {

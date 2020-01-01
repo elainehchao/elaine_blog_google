@@ -17,6 +17,7 @@ img.blog_main_image {
     display: block;
     max-width: 100%;
     height: auto;
+    padding-bottom: 10px;
 }
 
 div.post_content {
@@ -29,4 +30,20 @@ div.post_content {
 div.post_meta {
     padding-bottom: 5px;
     font-size: 14px;
+}
+
+a.read_more {
+    text-decoration: none;
+    font-family: 'Futura-CondensedMedium';
+    color: #ac3b61;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+#blog_content {
+    padding-bottom: 20px;
+}
+
+#post_content_preview {
+    padding-bottom: 10px;
 }
