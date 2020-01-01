@@ -15,12 +15,12 @@
 
 img.blog_main_image {
     display: block;
-    max-width: 500px;
+    max-width: 100%;
     height: auto;
 }
 
 div.post_content {
-    max-width: 500px;
+    max-width: 100%;
     color: #123c69;
     font-family: Avenir;
     font-size: 14px;

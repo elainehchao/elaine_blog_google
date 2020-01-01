@@ -3,41 +3,52 @@
 <html>
 
     <head>
-    <title>ciao, chao</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="post_stylesheet.css">
-</head>
 
-<body>
-    <div id="background">
-        <header>
-            <h1 id="title">ciao, chao</h1>
-        </header>
+        <title>ciao, chao</title>
 
 
-        <div class="blog_post" id="newest_post">
-            <h2 class="post_title">Lorem Ipsum</h2>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="post_stylesheet.css">
+        <!-- jQuery UI CSS -->
+        <link href="js/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet">
 
-            <div class="post_meta">
-                <subtitle class="post_date">December 31, 2019</subtitle>
+        <script src="js/jquery.js"> </script>
+        <script type="text/javascript" src="js/post_navigation.js"></script>
+        <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
 
-                <subtitle class="post_category">Food</subtitle>
+    </head>
+
+    <body>
+
+        <div id="background">
+            <div id="left_container">
+                <header>
+                    <a id="go_home_link" onclick="loadMain()" href="#">
+                        <h1 id="title">ciao, chao</h1>
+                    </a>
+                </header>
+
+                <div id="blog_content"></div>
+
+                <footer>
+                    <a id="previous_post_button" onclick="loadPrevious()" href="#">
+                        <span class="ui-icon ui-icon-arrowthick-1-w" id="previous_post_arrow"></span>
+                        <p id="previous_post">Previous Post</p>
+                    </a>
+
+                    <a id="next_post_button" onclick="loadNext()" href="#">
+                        <p id="next_post">Next Post</p>
+                        <span class="ui-icon ui-icon-arrowthick-1-e" id="next_post_arrow"></span>
+
+                    </a>
+                </footer>
             </div>
+        </div> <!-- background div -->
 
-            <img src="img/big_sur_post.JPG" alt="big sur bridge" class="blog_main_image">
+        <script type="text/javascript">
+            loadMain();
 
-            <div class="post_content">
-                <p class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
-                    <br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...
-                </p>
-            </div> <!-- post_content div -->
-        </div>
-        <footer>
-            <p id="older_posts">Older Posts</p>
-        </footer>
-    </div> <!-- background div -->
-</body>
+        </script>
+    </body>
 
 </html>

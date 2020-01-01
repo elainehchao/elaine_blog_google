@@ -9,6 +9,10 @@ div#background {
     background-color: #eee2dc;
 }
 
+#left_container {
+    max-width: 500px;
+}
+
 h1,
 h2 {
     all: unset;
@@ -16,7 +20,9 @@ h2 {
 
 h1,
 h2,
-subtitle {
+subtitle,
+#previous_post,
+#next_post {
     font-family: 'Futura-CondensedMedium';
 }
 
@@ -26,4 +32,28 @@ subtitle {
     padding-bottom: 45px;
     padding-top: 20px;
     display: block;
+}
+
+a#go_home_link {
+    text-decoration: none;
+}
+
+#previous_post_arrow {
+    display: inline-block;
+}
+
+#previous_post,
+#next_post {
+    display: inline-block;
+    font-size: 18px;
+}
+
+a#previous_post_button,
+a#next_post_button {
+    text-decoration: none;
+    color: #123c69
+}
+
+a#next_post_button {
+    float: right;
 }
