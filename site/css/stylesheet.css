@@ -9,8 +9,17 @@ div#background {
     background-color: #eee2dc;
 }
 
+#content_nav {
+    display: -webkit-flex;
+    display: flex;
+}
+
 #left_container {
     max-width: 500px;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding: 10px;
 }
 
 h1,
@@ -22,7 +31,8 @@ h1,
 h2,
 subtitle,
 #previous_post,
-#next_post {
+#next_post,
+#side_nav_list {
     font-family: 'Futura-CondensedMedium';
 }
 
@@ -64,4 +74,22 @@ a#next_post_button {
 
 a#next_post_button {
     float: right;
+}
+
+#right_container {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 20px;
+}
+
+#side_nav_list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #8e8e90;
 }
