@@ -14,6 +14,7 @@
 
         <script src="js/jquery.js"> </script>
         <script type="text/javascript" src="js/post_navigation.js"></script>
+        <script type="text/javascript" src="js/site_navigation.js"></script>
         <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
 
     </head>
@@ -21,12 +22,7 @@
     <body>
 
         <div id="background">
-            <header>
-                <a id="go_home_link" onclick="loadMain()" href="#">
-                    <h1 id="title">ciao, chao</h1>
-                </a>
-                <h2 id="site_subtitle">female engineer living a life of realistic positivity</h2>
-            </header>
+            <header id="header"></header>
 
             <div id="content_nav">
                 <article id="left_container">
@@ -48,21 +44,25 @@
                 </article> <!-- left_container article -->
 
                 <aside id="right_container">
-                    <nav id="side_nav">
-                        <ul id="side_nav_list">
-                            <li><a class="nav_link" href="index.html">blog</a></li>
-                            <li><a class="nav_link" href="index.html">projects</a></li>
-                            <li><a class="nav_link" href="index.html">photos</a></li>
-                            <li><a class="nav_link" href="index.html">about_me</a></li>
-                        </ul>
-                    </nav>
+                    <!--
+<nav id="side_nav">
+    <ul id="side_nav_list">
+        <li><a class="nav_link selected" href="index.html">blog</a></li>
+        <li><a class="nav_link" href="index.html">projects</a></li>
+        <li><a class="nav_link" href="index.html">photos</a></li>
+        <li><a class="nav_link" href="index.html">about_me</a></li>
+    </ul>
+</nav>
+-->
                 </aside>
             </div>
 
         </div> <!-- background div -->
 
         <script type="text/javascript">
+            loadHeading();
             loadMain();
+            loadSideNav("blog");
 
         </script>
     </body>

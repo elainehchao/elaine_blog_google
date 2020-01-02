@@ -13,11 +13,47 @@
     color: #ac3b61;
 }
 
+.post_img_caption {
+    color: #123c69;
+    font-family: Avenir;
+    font-size: 14px;
+    text-align: center;
+}
+
 img.blog_main_image {
     display: block;
     max-width: 100%;
     height: auto;
     padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.blog_center_image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.blog_left_figure {
+    float: left;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.blog_right_figure {
+    float: right;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div.post_content {
@@ -28,7 +64,7 @@ div.post_content {
 }
 
 div.post_meta {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     font-size: 14px;
 }
 
