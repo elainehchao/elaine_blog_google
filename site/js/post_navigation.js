@@ -15,7 +15,7 @@ function loadPost(num) {
     validatePrevNextButtons();
 };
 
-function loadMain() {
+function loadMainPost() {
     loadPost(NUM_POSTS);
 }
 

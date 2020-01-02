@@ -3,8 +3,10 @@ function loadHeading() {
 }
 
 function loadSideNav(selected_page) {
-    $("#right_container").load("components.html #side_nav", function () {
-        $("#" + selected_page + "_nav").addClass("selected");
-    });
+    if (selected_page || selected_page != '') {
+        $("#right_container").load("components.html #side_nav", function () {
+            $("#" + selected_page + "_nav").addClass("selected");
+        });
+    }
 
 }
