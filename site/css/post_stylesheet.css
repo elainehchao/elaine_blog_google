@@ -18,6 +18,7 @@
     font-family: Avenir;
     font-size: 14px;
     text-align: center;
+    font-family: 'Monotype Corsiva';
 }
 
 img.blog_main_image {
@@ -38,22 +39,14 @@ img.blog_center_image {
     margin-right: auto;
 }
 
-img.blog_left_figure {
+.blog_left_figure {
     float: left;
-    max-width: 100%;
-    height: auto;
-    padding-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 49%;
 }
 
-img.blog_right_figure {
+.blog_right_figure {
     float: right;
-    max-width: 100%;
-    height: auto;
-    padding-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 49%;
 }
 
 div.post_content {
@@ -82,4 +75,13 @@ a.read_more {
 
 #post_content_preview {
     padding-bottom: 10px;
+}
+
+.post_link {
+    text-decoration: none;
+    color: #ac3b61;
+}
+
+i.post_italic {
+    font-weight: bold;
 }
